@@ -1,13 +1,10 @@
-# MLDL-demo
-Introduction
+# TensorFlow Machine Learning with Financial, New York Times and Watson Data on IBM Power 8 systems
 
-The goal of this exercise is to create a demo on IBM Power systems with the following ingredients:
-1) CfC as container orchestrator
-2) An Nvidia docker container managed  by CfC
-3) a Jupyter notebook exercising TensorFlow using GPU inside the Nvidia container
+This solution presents an accessible, non-trivial example of machine learning with time series on IBM Power8 systems.This experiment will focus on the 'renewable energy' sector.
+In this solution, we will:
 
-Note: for building the environment, we use a Minsky system (2 sockets, 4 GPUs)
-
-CfC Installation
-
-The CfC installation is documented at: https://github.com/fbarilla/CfC
+- Obtain 'renewable energy' data from a number of financial markets (indexes and ETFs).
+- Obtain from the New York Times articles related to renewable energies
+- Use Watson to process the articles and extract meaningful data.
+- Munge that data into a usable format and perform exploratory data analysis in order to explore and validate a premise.
+- Use TensorFlow to build, train and evaluate a number of models for predicting what will happen in financial markets
